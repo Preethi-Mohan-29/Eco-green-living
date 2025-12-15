@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eco Green Living</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1>Eco Green Living</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#impact">Impact</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<section id="home" class="hero">
+  <div class="hero-container green-card-style">
+
+    <div class="hero-text">
+      <h2>Live Green, Save the Planet 🌍</h2>
+      <p>
+        Small actions today create a greener tomorrow.
+        Reduce waste, save energy, and protect nature.
+      </p>
+      <a href="#features" class="btn">Explore More</a>
+    </div>
+
+    
+    <div class="circle-placeholder-style">
+      <div class="slider">
+        <img src="images/eco1.jpg" class="active" alt="Eco">
+        <img src="images/eco2.jpg" alt="Eco">
+        <img src="images/eco3.jpg" alt="Eco">
+      </div>
+
+      <div class="dots">
+        <span class="dot active" data-index="0"></span>
+        <span class="dot" data-index="1"></span>
+        <span class="dot" data-index="2"></span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="about" class="section about-section">
+  <h2>About</h2>
+  <div class="about-card">
+    <p class="quote">
+      Eco Green Living is about making mindful choices every day.
+      By adopting sustainable habits, we reduce environmental impact,
+      conserve natural resources, and build a healthier future
+      for generations to come.
+    </p>
+    <span class="about-tag">🌱 Sustainable • Responsible • Green</span>
+  </div>
+</section>
+
+
+<section id="features" class="section">
+  <h2>Why Choose Green Living?</h2>
+  <p class="section-para">
+    Simple habits can make a powerful impact on our planet.
+  </p>
+
+  <div class="features">
+    <div class="feature-card">
+      <div class="icon">♻️</div>
+      <h4>Reduce Waste</h4>
+      <p>Reuse, recycle, and avoid plastics.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon">⚡</div>
+      <h4>Save Energy</h4>
+      <p>Use energy-efficient solutions.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon">🌳</div>
+      <h4>Protect Nature</h4>
+      <p>Preserve forests and wildlife.</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="impact" class="impact-section">
+  <h2>Impact Counter</h2>
+  <p class="impact-sub">Every eco action matters 🌱</p>
+
+  <div class="impact-card">
+    <span class="impact-icon">🌍</span>
+    <h3 id="count">0</h3>
+    <p class="impact-label">Eco Actions</p>
+
+    <div class="counter-btns">
+      <button class="inc" onclick="increment()">+</button>
+      <button class="dec" onclick="decrement()">−</button>
+      <button class="reset" onclick="reset()">Reset</button>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact" class="section">
+  <h2>Join Our Green Community</h2>
+
+  <form id="ecoForm">
+    <input type="text" id="name" placeholder="Name"/>
+    <small id="nameError"></small>
+
+    <input type="email" id="email" placeholder="Email"/>
+    <small id="emailError"></small>
+
+    <input type="text" id="phone" placeholder="Phone Number"/>
+    <small id="phoneError"></small>
+
+    <input type="password" id="password" placeholder="Password"/>
+    <small id="passwordError"></small>
+
+    <button type="submit" class="submit-btn">Submit</button>
+    <p id="success"></p>
+  </form>
+</section>
+<script src="main.js"></script>
+
+
+<footer class="footer">
+  <div class="footer-container">
+
+    
+    <div class="footer-col">
+      <h3>Eco Green Living</h3>
+      <p>
+        Making sustainable living simple and accessible for everyone.
+        Small steps today create a greener tomorrow 🌱
+      </p>
+    </div>
+
+    
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#impact">Impact</a></li>
+      </ul>
+    </div>
+
+    
+    <div class="footer-col">
+      <h4>Support</h4>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Help Center</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <ul class="social-links">
+        <li><a href="#">🌐 Website</a></li>
+        <li><a href="#">📘 Facebook</a></li>
+        <li><a href="#">📸 Instagram</a></li>
+        <li><a href="#">🐦 Twitter</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Eco Green Living. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
